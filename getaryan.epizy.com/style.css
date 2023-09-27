@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(0, 183, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.logo_h{
+    user-select: none;
+    font-size: 2em;
+    color: aliceblue;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 5px;
+}

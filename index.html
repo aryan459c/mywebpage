@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AryaN</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">AryaN</h2>
+        <nav class="navigation">
+            <a href="/index.html">Home</a>
+            <a href="/pages/about.html" target="iNav_url">About</a>
+            <a href="/pages/service.html" target="iNav_url">Service</a>
+            <a href="/pages/contacts.html" target="iNav_url">Contacts</a>
+            <botton class="btnLogin-popup">Login</botton>
+        </nav>
+    </header>
+    <div class="ifrmd">
+    <iframe src="" name="iNav_url" height="100%" class="ifrm"></iframe>
+    </div>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon>
+        </span>
+        <div class="from-box login">
+            <h2>Login</h2>
+            <form action="db/authonication.php" method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="email" id="" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="password" id="" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#">Forget Password</a>
+                </div>
+                <button type="submit" class="btn">LogIn</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="from-box register">
+            <h2>Register</h2>
+            <form action="#" method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                    <input type="text" name="" id="" required>
+                    <label>UserName</label>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="" id="" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="" id="" required>
+                    <label>Password</label>
+                </div>
+                    <div class="remember-forget">
+                    <input type="checkbox"> I agree them condition
+                </div>
+                
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have account?<a href="#" class="login-link">LogIn</a></p>
+                </div>
+
+                
+            </form>
+        </div>
+
+    </div>
+    
+    <script src="Js.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- <footer>
+    <p>Powered By: Sunil Kumar Maharana</p>
+</footer> -->
+</body>
+</html>
